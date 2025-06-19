@@ -3,133 +3,197 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jane Doe - Climate Model Developer</title>
+  <title>Kiran D. Salunke - AI/ML Climate Model Developer</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body class="bg-gray-100 font-sans">
+  <!-- Navigation -->
+  <nav class="bg-blue-900 text-white p-4 sticky top-0 z-10">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-xl font-bold">Kiran D. Salunke</h1>
+      <div class="md:hidden">
+        <button id="menu-toggle" class="focus:outline-none">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+      <ul id="nav-menu" class="hidden md:flex space-x-4">
+        <li><a href="#about" class="hover:text-blue-300">About</a></li>
+        <li><a href="#education" class="hover:text-blue-300">Education</a></li>
+        <li><a href="#experience" class="hover:text-blue-300">Experience</a></li>
+        <li><a href="#projects" class="hover:text-blue-300">Projects</a></li>
+        <li><a href="#skills" class="hover:text-blue-300">Skills</a></li>
+        <li><a href="#achievements" class="hover:text-blue-300">Achievements</a></li>
+        <li><a href="#workshops" class="hover:text-blue-300">Workshops</a></li>
+        <li><a href="#publications" class="hover:text-blue-300">Publications</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
   <div class="container mx-auto p-6 max-w-4xl bg-white shadow-lg rounded-lg mt-6">
     <!-- Header -->
     <header class="text-center mb-8">
-      <h1 class="text-4xl font-bold text-gray-800">Jane Doe</h1>
-      <p class="text-xl text-gray-600">Climate Model Developer</p>
+      <h1 class="text-4xl font-bold text-gray-800">Kiran D. Salunke</h1>
+      <p class="text-xl text-gray-600">Junior Scientific Officer, Indian Institute of Tropical Meteorology</p>
       <p class="text-gray-600">
-        <a href="mailto:jane.doe@example.com" class="text-blue-600">jane.doe@example.com</a> |
-        <a href="https://linkedin.com/in/janedoe" class="text-blue-600">LinkedIn</a> |
-        <a href="https://github.com/JaneDoe" class="text-blue-600">GitHub</a>
+        <a href="mailto:kirands16@gmail.com" class="text-blue-600">kirands16@gmail.com</a> |
+        <a href="mailto:kiran@tropmet.res.in" class="text-blue-600">kiran@tropmet.res.in</a> |
+        <a href="https://github.com/kirands16" class="text-blue-600">GitHub</a> |
+        <a href="https://linkedin.com/in/kirands16" class="text-blue-600">LinkedIn</a> |
+        <a href="https://scholar.google.com/citations?user=PDvkc18AAAAJ&hl=en" class="text-blue-600">Google Scholar</a> |
+        <a href="https://orcid.org/0000-0001-9750-3648" class="text-blue-600">ORCID</a> |
+        +91-9850371196
       </p>
     </header>
 
     <!-- About -->
-    <section class="mb-8">
+    <section id="about" class="mb-8">
       <h2 class="text-2xl font-semibold text-gray-800 mb-4">About</h2>
       <p class="text-gray-700">
-        I am a climate scientist with 5+ years of experience developing regional and global climate models using Python, Julia, and Fortran. My work focuses on predicting climate impacts to inform sustainable policy.
+        I am a Ph.D. researcher at IITM, Pune, specializing in deep learning for ENSO and ISMR prediction. With over a decade as a Junior Scientific Officer, I leverage CNNs, ConvLSTM, and transfer learning to enhance climate forecasting using CFSv2, Python, and TensorFlow on HPC platforms like Pratyush.
       </p>
     </section>
 
     <!-- Education -->
-    <section class="mb-8">
+    <section id="education" class="mb-8">
       <h2 class="text-2xl font-semibold text-gray-800 mb-4">Education</h2>
       <div class="mb-4">
-        <h3 class="text-lg font-medium">Ph.D. in Climate Science</h3>
-        <p class="text-gray-600">University of Example, 2018–2022</p>
-        <p class="text-gray-700">Dissertation: Regional Climate Modeling for Monsoon Prediction</p>
+        <h3 class="text-lg font-medium">Int. MTech-Ph.D., Computer and Information Technology</h3>
+        <p class="text-gray-600">Savitribai Phule Pune University, 2020–Present, CGPA: 7.13/10</p>
+        <p class="text-gray-700">Ph.D. Topic: Deep Learning Based Framework for ENSO and ISMR Prediction</p>
+      </div>
+      <div class="mb-4">
+        <h3 class="text-lg font-medium">MTech, Modeling and Simulations</h3>
+        <p class="text-gray-600">Savitribai Phule Pune University, 2015–2017, CGPA: 2.24/6</p>
+      </div>
+      <div class="mb-4">
+        <h3 class="text-lg font-medium">MSc, Computer Science</h3>
+        <p class="text-gray-600">North Maharashtra University, 2007–2009, Percentage: 52.08</p>
+      </div>
+      <div class="mb-4">
+        <h3 class="text-lg font-medium">HSC</h3>
+        <p class="text-gray-600">Jaihind College Dhule, Maharashtra State Board, 2000, Percentage: 55.83</p>
       </div>
       <div>
-        <h3 class="text-lg font-medium">B.S. in Environmental Science</h3>
-        <p class="text-gray-600">State University, 2014–2018</p>
+        <h3 class="text-lg font-medium">SSC</h3>
+        <p class="text-gray-600">Pandit Nehru School, Maharashtra State Board, 1998, Percentage: 74.40</p>
       </div>
     </section>
 
     <!-- Experience -->
-    <section class="mb-8">
+    <section id="experience" class="mb-8">
       <h2 class="text-2xl font-semibold text-gray-800 mb-4">Experience</h2>
       <div class="mb-4">
-        <h3 class="text-lg font-medium">Climate Modeler, Research Institute</h3>
-        <p class="text-gray-600">2022–Present</p>
+        <h3 class="text-lg font-medium">Junior Scientific Officer, Indian Institute of Tropical Meteorology</h3>
+        <p class="text-gray-600">Pune, 2009–Present</p>
         <ul class="list-disc list-inside text-gray-700">
-          <li>Developed a regional climate model using WRF for South Asian monsoon forecasting.</li>
-          <li>Analyzed CMIP6 datasets to validate model predictions, achieving 85% accuracy.</li>
-          <li>Published 3 papers in peer-reviewed journals on climate impacts.</li>
+          <li>Developed ISMR prediction systems under Monsoon Mission using CFSv2.</li>
+          <li>Analyzed ISMR predictability with ANOVA, relative entropy, and mutual information.</li>
+          <li>Built CNN models for ENSO prediction, achieving ~0.82 correlation skill.</li>
+          <li>Applied transfer learning for ISMR, capturing non-linear monsoon dynamics.</li>
         </ul>
       </div>
     </section>
 
     <!-- Projects -->
-    <section class="mb-8">
+    <section id="projects" class="mb-8">
       <h2 class="text-2xl font-semibold text-gray-800 mb-4">Projects</h2>
       <div class="mb-4">
         <h3 class="text-lg font-medium">
-          <a href="https://github.com/JaneDoe/sea-ice-analysis" class="text-blue-600">Sea Ice Decline Model</a>
+          <a href="monsoon-mission.html" class="text-blue-600">Monsoon Mission Project: ISMR Prediction with CFSv2</a>
         </h3>
-        <p class="text-gray-700">
-          Built a Python-based statistical model to predict Arctic sea ice loss using CMIP6 data. Achieved 20% loss prediction by 2050 under RCP8.5.
-        </p>
-        <img src="sea-ice-trend.png" alt="Sea ice extent trend plot" class="mt-2 w-full max-w-md">
+        <p class="text-gray-700">Developed a dynamical system for ISMR prediction using CFSv2.</p>
+        <img src="ismr-forecast.png" alt="ISMR forecast plot" class="mt-2 w-full max-w-md">
+      </div>
+      <div class="mb-4">
+        <h3 class="text-lg font-medium">
+          <a href="deep-learning-enso.html" class="text-blue-600">Deep Learning for ENSO Prediction</a>
+        </h3>
+        <p class="text-gray-700">CNN-based model for Niño 3.4 index forecasting.</p>
       </div>
       <div>
         <h3 class="text-lg font-medium">
-          <a href="https://github.com/JaneDoe/temperature-anomaly" class="text-blue-600">Temperature Anomaly Analysis</a>
+          <a href="deep-learning-ismr.html" class="text-blue-600">Deep Learning for ISMR Prediction</a>
         </h3>
-        <p class="text-gray-700">
-          Analyzed global temperature anomalies using Xarray and Cartopy, visualizing trends for IPCC reports.
-        </p>
+        <p class="text-gray-700">Transfer learning to model monsoon dynamics.</p>
       </div>
     </section>
 
     <!-- Skills -->
-    <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-gray-800 mb-4">Skills</h2>
+    <section id="skills" class="mb-8">
+      <h2 class="text-2xl font-semibold text-gray-800 mb-4">Technical Skills</h2>
       <ul class="list-disc list-inside text-gray-700">
-        <li>Languages: Python, Julia, Fortran, R</li>
-        <li>Tools: Xarray, Cartopy, Matplotlib, NCAR NCL, WRF, CESM</li>
-        <li>Domains: Climate modeling, data visualization, machine learning</li>
+        <li>Languages: Fortran 90, Python, C, Matlab, R</li>
+        <li>Developer Tools: Keras, TensorFlow, PyTorch, Xconv, NCO, CDO</li>
+        <li>Areas of Interest: AI, Machine Learning, Climate Modeling, HPC, Data Assimilation</li>
+      </ul>
+    </section>
+
+    <!-- Achievements -->
+    <section id="achievements" class="mb-8">
+      <h2 class="text-2xl font-semibold text-gray-800 mb-4">Achievements</h2>
+      <ul class="list-disc list-inside text-gray-700">
+        <li>Indian Meteorological Society Young Scientist Award, Sep 2014</li>
+        <li>Twenty Fifth Annual Silver Jubilee Award, IITM, Nov 2013</li>
+        <li>Excellent Performance Award, Group B Officer, Nov 2013</li>
+        <li>Certificate of Excellence, Scientific Officer, Nov 2022</li>
+      </ul>
+    </section>
+
+    <!-- Workshops -->
+    <section id="workshops" class="mb-8">
+      <h2 class="text-2xl font-semibold text-gray-800 mb-4">Workshops & Training</h2>
+      <ul class="list-disc list-inside text-gray-700">
+        <li>National Training on AI/ML and Data Assimilation, IITM Pune, Feb 2023</li>
+        <li>TAIAES Summer School, Jul 2022</li>
+        <li>WCRP Virtual Summer School, Jun 2022</li>
+        <li>Big Data Analytics Summer School, Jul 2022</li>
+        <li>AI/ML Workshop, Ministry of Earth Sciences, May 2022</li>
+        <li>Kavli Program, Nov–Dec 2021</li>
+        <li>NOAA AI Workshop, Sep 2021</li>
+        <li>TAIAES Summer School, Jul 2021</li>
+        <li>Google Research India Symposium, Apr 2021</li>
+        <li>AI/ML Training, Feb 2021</li>
+        <li>RIKEN Data Assimilation School, Japan, Jan 2018</li>
+        <li>ICACC 2017, Kochi, Aug 2017</li>
+        <li>ESCAPE YSSS, Copenhagen, Aug 2017</li>
+        <li>HPC Training, IITM Pune, Jul 2015</li>
+        <li>ICTP HPC School, Trieste, Italy, Oct–Nov 2014</li>
+        <li>APCC Training, Busan, South Korea, Nov 2012</li>
       </ul>
     </section>
 
     <!-- Publications -->
-    <section>
+    <section id="publications" class="mb-8">
       <h2 class="text-2xl font-semibold text-gray-800 mb-4">Publications</h2>
-      <p class="text-gray-700">
-        Doe, J., et al. (2023). "Regional Climate Impacts of Monsoon Variability." <i>Journal of Climate</i>. 
-        <a href="https://doi.org/10.1000/example" class="text-blue-600">DOI</a>
-      </p>
+      <ul class="list-disc list-inside text-gray-700">
+        <li>Hari K.B.R.R., et al. (2020). <a href="https://doi.org/10.1002/joc.6496" class="text-blue-600">DOI</a></li>
+        <li>Pillai P.A., et al. (2018). <a href="https://doi.org/10.1007/s00382-017-3936-y" class="text-blue-600">DOI</a></li>
+        <li>Pillai P.A., et al. (2017). <a href="https://doi.org/10.1007/s00382-016-3305-2" class="text-blue-600">DOI</a></li>
+        <li>Chattopadhyay R., et al. (2016). <a href="https://doi.org/10.1002/joc.4556" class="text-blue-600">DOI</a></li>
+        <li>Pokhrel S., et al. (2016). <a href="https://doi.org/10.1007/s00382-015-2703-1" class="text-blue-600">DOI</a></li>
+        <li>Ramu D.A., et al. (2016). <a href="https://doi.org/10.1002/2015JD024629" class="text-blue-600">DOI</a></li>
+        <li>Saha S., et al. (2016). <a href="https://doi.org/10.1002/2015MS000542" class="text-blue-600">DOI</a></li>
+        <li>Chattopadhyay R., et al. (2015). <a href="https://doi.org/10.1002/qj.2562" class="text-blue-600">DOI</a></li>
+        <li>Saberali C.T., et al. (2015). <a href="https://doi.org/10.1007/s00382-014-2269-3" class="text-blue-600">DOI</a></li>
+        <li>Saha Subodh K., et al. (2014). <a href="https://doi.org/10.1002/joc.3791" class="text-blue-600">DOI</a></li>
+        <li>Chaudhari H.S., et al. (2013). <a href="https://doi.org/10.1002/joc.3489" class="text-blue-600">DOI</a></li>
+        <li>Hazra A., et al. (2013). <a href="https://doi.org/10.1002/asl2.437" class="text-blue-600">DOI</a></li>
+        <li>Saberali C.T., et al. (2013). <a href="https://doi.org/10.1002/jgrd.50403" class="text-blue-600">DOI</a></li>
+        <li>Pokhrel S., et al. (2012). <a href="https://doi.org/10.1007/s00382-012-1349-5" class="text-blue-600">DOI</a></li>
+        <li>Mujumdar M., et al. (2011). <a href="https://doi.org/10.1109/LGRS.2010.2060183" class="text-blue-600">DOI</a></li>
+      </ul>
     </section>
   </div>
 
-  <!-- Chart.js Visualization -->
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!-- Visualization -->
   <div class="container mx-auto p-6 max-w-4xl">
-    <canvas id="climateChart" class="w-full max-w-md"></canvas>
+    <canvas id="ismrChart" class="w-full max-w-md"></canvas>
   </div>
-  <script>
-    const ctx = document.getElementById('climateChart').getContext('2d');
-    new Chart(ctx, {
-      type: 'line',
-      data: {
-        labels: ['2000', '2010', '2020', '2030', '2040', '2050'],
-        datasets: [{
-          label: 'Temperature Anomaly (°C)',
-          data: [0.4, 0.6, 0.8, 1.0, 1.3, 1.6],
-          borderColor: '#e63946',
-          backgroundColor: 'rgba(230, 57, 70, 0.2)',
-          fill: true
-        }]
-      },
-      options: {
-        responsive: true,
-        plugins: {
-          title: {
-            display: true,
-            text: 'Global Temperature Anomaly (RCP8.5 Scenario)'
-          }
-        },
-        scales: {
-          y: { title: { display: true, text: 'Anomaly (°C)' } },
-          x: { title: { display: true, text: 'Year' } }
-        }
-      }
-    });
-  </script>
-</body>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="scripts.js"></script>
+ </body>
 </html>
