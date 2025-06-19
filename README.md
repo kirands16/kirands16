@@ -1,11 +1,18 @@
 # Kiran D. Salunke                                                                                                 
 
-Ph.D. Researcher at IITM, specializing in deep learning for ENSO and ISMR prediction.
+# Kiran D. Salunke
 
-## Key Projects
-- [Monsoon Mission](https://github.com/kirands16/monsoon-mission)
-- [ENSO Prediction](https://github.com/kirands16/enso-cnn)
-- [ISMR Prediction](https://github.com/kirands16/ismr-transfer-learning)
+Welcome to my GitHub profile! I'm a Ph.D. researcher at the Indian Institute of Tropical Meteorology (IITM), Pune, specializing in deep learning frameworks for ENSO and Indian Summer Monsoon Rainfall (ISMR) prediction. With over a decade of experience as a Junior Scientific Officer, I develop advanced climate models using tools like CFSv2, Python, TensorFlow, and Fortran.
+
+## 🔧 Skills
+- **Languages**: Fortran 90, Python, C, Matlab, R
+- **Tools**: Keras, TensorFlow, PyTorch, Xconv, NCO, CDO
+- **Domains**: AI, Machine Learning, Climate Modeling (CFS, PWP, MOM4, MOM5), HPC, Data Assimilation
+
+## 📚 Key Projects
+- **[Monsoon Mission Project](https://github.com/kirands16/monsoon-mission)**: Developed a dynamical system for ISMR prediction using CFSv2, improving seasonal forecast accuracy.
+- **[Deep Learning for ENSO Prediction](https://github.com/kirands16/enso-cnn)**: Built a CNN-based model for Niño 3.4 index forecasting using CMIP5 and NOAA datasets.
+    [ISMR Prediction](https://github.com/kirands16/ismr-transfer-learning)
 
 ## CV
 [View My CV](https://kirands16.github.io)
