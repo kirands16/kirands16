@@ -1,4 +1,4 @@
-# Kiran D. Salunke
+# Kiran D. Salunke  Orchid ID: 0000-0001-9750-3648                                                                                                           
 
 Ph.D. Researcher at IITM, specializing in deep learning for ENSO and ISMR prediction.
 
@@ -12,4 +12,5 @@ Ph.D. Researcher at IITM, specializing in deep learning for ENSO and ISMR predic
 
 ## Connect
 - [LinkedIn](https://linkedin.com/in/kirands16)
+- Orchid ID: 0000-0001-9750-3648                                                                                                           
 - Email: kirands16@gmail.com
