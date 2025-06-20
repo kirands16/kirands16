@@ -1,4 +1,4 @@
-# Kiran D. Salunke
+# Kiran D. Salunke   file:///C:/Users/IITM/Documents/GitHub/kirands16.github.io/kirands16/index.html
 
 Ph.D. researcher at the Indian Institute of Tropical Meteorology (IITM), Pune, specializing in deep learning frameworks for ENSO and Indian Summer Monsoon Rainfall (ISMR) prediction. Over a decade as a Junior Scientific Officer, developing climate models using CFSv2, Python, TensorFlow, and Fortran.
 
